@@ -23,6 +23,7 @@
   "dependencies": {
     "ci": "^2.3.0",
     "link": "^2.1.2",
+    "readline-sync": "^1.4.10",
     "unlink": "^0.0.2"
   }
 }

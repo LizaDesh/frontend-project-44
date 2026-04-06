@@ -1,31 +1,37 @@
-import readLineSync from 'readline-sync';
+import readlineSync from 'readline-sync';
 
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const roundsCount = 3
 
-const runGame = (description, getGameData) => {
-    console.log('Welcome to the Brain Games!');
-    const name = readLineSync.question('May I have your name? ');
-    console.log(`Hello, ${name}!`);
-    console.log(description);
+const runEngine = (description, getRoundData) => {
+console.log('Welcome to the Brain Games!')
+const name = readlineSync.question('May I have your name? ')
+console.log(`Hello, ${name}!`)
+////////////////////
+console.log(description)
 
-    const roundsCount = 4;
-    const succesMessages = ['Correct!', 'Well done!', 'Nice job', 'Прекрасно!'];
+////////////////////////
+for (let i = 0; i < roundsCount; i += 1) {
+// Получаем массив [вопрос, правильный ответ]
+const [question, correctAnswer] = getRoundData()
 
-    for (let i = 0; i < roundsCount; i += 1) {
-        const [question, correctAnswer] = getGameData();
-        console.log(`Qustion: ${question}`);
-        const userAnswer = readLineSync.question('Your answer:');
+console.log(`Question: ${question}`)
+const userAnswer = readlineSync.question('Your answer: ')
 
-        if (userAnswer !== correctAnswer) {
-            console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-            console.log(`Let's try again, $(name)!`);
-            return
-        }
-        const randomMessage = succesMessages[getRandomInt(0, succesMessages.length -1)];
-        console.log(randomMessage);
-    };
 
-   console.log(`Congratulations, ${name}!`);
+
+if (userAnswer !== correctAnswer) {
+console.log(
+`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`,
+)
+console.log(`Let's try again, ${name}!`)
+return // Завершаем игру при ошибке
 }
 
- export default runGame;
+console.log('Correct!')
+}
+
+// Если прошли 3 раунда без ошибок
+console.log(`Congratulations, ${name}!`)
+}
+
+export default runEngine

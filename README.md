@@ -4,3 +4,5 @@
 ###  Проверка на чётность:( https://asciinema.org/a/NLxyGpWzIT4IhrWt ) 
 
 ### Калькулятор ( https://asciinema.org/a/3OoKFPlcwdwF7adv )
+
+### НОД ( https://asciinema.org/a/Z06l6rFQfPnuA6FJ )

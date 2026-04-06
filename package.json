@@ -1,5 +1,5 @@
 {
-  "name": "@LizaDeh/code",
+  "name": "@lizadeh/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/LizaDesh/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/LizaDesh/frontend-project-44/actions)",
   "homepage": "https://github.com/LizaDesh/frontend-project-44#readme",
@@ -15,15 +15,25 @@
   "type": "module",
   "main": "index.js",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "ci": "^2.3.0",
     "link": "^2.1.2",
     "readline-sync": "^1.4.10",
     "unlink": "^0.0.2"
+  },
+  "devDependencies": {
+    "@eslint/create-config": "^1.11.0",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0"
   }
 }

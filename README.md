@@ -1,0 +1,12 @@
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/LizaDesh/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/LizaDesh/frontend-project-44/actions)
+
+###  Проверка на чётность:( https://asciinema.org/a/NLxyGpWzIT4IhrWt ) 
+
+### Калькулятор ( https://asciinema.org/a/3OoKFPlcwdwF7adv )
+
+### НОД ( https://asciinema.org/a/Z06l6rFQfPnuA6FJ )
+
+### Арифметическая прогрессия ( https://asciinema.org/a/yqQNPa2JpvnpBF13 )
+
+###  Простое ли число ( https://asciinema.org/a/vROYodhPniMEphMp )

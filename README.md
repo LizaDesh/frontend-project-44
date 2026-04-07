@@ -7,10 +7,7 @@
 
 ### НОД ( https://asciinema.org/a/Z06l6rFQfPnuA6FJ )
 
-<<<<<<< HEAD
-### Арифметическая прогрессия ( https://asciinema.org/a/yqQNPa2JpvnpBF13 )
-=======
 ### Арифметическая прогрессия ( https://asciinema.org/a/yqQNPa2JpvnpBF13 )
 
 ###  Простое ли число ( https://asciinema.org/a/vROYodhPniMEphMp )
->>>>>>> 181bb04 (5)
+

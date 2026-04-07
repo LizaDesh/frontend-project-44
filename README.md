@@ -9,4 +9,4 @@
 
 ### Арифметическая прогрессия ( https://asciinema.org/a/yqQNPa2JpvnpBF13 )
 
-###  Простое ли число ( https://asciinema.org/a/vROYodhPniMEphMp )
+###  Простое ли число (https://asciinema.org/a/vROYodhPniMEphMp) 
